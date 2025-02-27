@@ -11,7 +11,7 @@
         padding: 0;
       }
 
-      #nptelCertificateByVinaykpro {
+      #CertificateByYashChauhan {
         padding: 0;
         margin:0;
         width:100%;
@@ -113,7 +113,7 @@
         font-weight: lighter;
       }
 
-      #nptelCertificateByVinaykpro {
+      #CertificateByYashChauhan {
         padding: 0;
         width:100vw;
         overflow: hidden;
@@ -267,10 +267,23 @@
         width: 50%;
         left: 50%;
       }
+      .yash{
+        position: absolute;
+        top: 80vh;
+        right: 0;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border-radius: 20px;
+        margin: 30px;
+      }
+      .yash a{
+        color: orange;
+      }
     </style>
   </head>
   <body>
-    <div id="nptelCertificateByVinaykpro">
+    <div id="CertificateByYashChauhan">
     <img id="bg" src="nptelbg.png" />
     <img id="dp" src="" alt="" />
     <p class="roman" id="course">Software Engineering</p>
@@ -308,7 +321,7 @@
         <input type="file" id="imageInput" accept="image/*">
       </form>
 
-
+      <div class="yash">mad by <a href="https://yash-chauhan.vercel.app/">Yash Chauhan</a></div>
     </div>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
@@ -400,13 +413,13 @@
         }
     });
 
-    var page = document.getElementById('nptelCertificateByVinaykpro');
+    var page = document.getElementById('CertificateByYashChauhan');
     //page.style.width = innerWidth+"px";
     //page.style.height = innerWidth*0.7178+"px";
     var h = Math.floor(window.innerWidth*0.74);
     var w = window.innerWidth;
     document.getElementById('downloadbutton').addEventListener('click', function () {
-      const content = document.getElementById('nptelCertificateByVinaykpro');
+      const content = document.getElementById('CertificateByYashChauhan');
       html2pdf().from(content).set({
         margin: 0,
         filename: 'Nptel Certificate by Vinaykpro.pdf',
