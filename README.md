@@ -18,15 +18,15 @@ This is a **just-for-fun** project that creates **fake NPTEL exam certificates**
 ## 🛠️ Technologies Used
 
 - HTML / CSS for UI
-- JavaScript (or Python if backend generation is involved)
-- 
+- JavaScript
+
 ---
 
 ## 🚀 Usage
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yashchauhan008/fake-nptel-certificate.git
+    git clone https://github.com/yashchauhan008/Nptel_Certification.git
     ```
 2. Open the app in your browser and have fun generating fake certificates!
 
