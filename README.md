@@ -34,7 +34,7 @@ This is a **just-for-fun** project that creates **fake NPTEL exam certificates**
 
 ## 📷 Preview
 
-*(Add a screenshot here if available)*
+![Sample Certificate](certificate.png)
 
 ---
 
